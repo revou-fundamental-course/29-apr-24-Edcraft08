@@ -1,2 +1,41 @@
 /* ini CSS */
 
+.navigation-container {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-top: 10px;
+        padding-bottom: 10px;    
+}
+
+.navigation-container>nav>button
+    {
+        height: 32px;
+        border: 1px solid gray;
+    }
+    
+.conten-container>header 
+{
+    font-family: "tahoma";
+    text-align: center;
+}
+
+.core-content {
+   display: flex;
+    
+}
+
+.core-item 
+    {
+        height: 200px;
+        width: 600px;
+        border: 1px solid;
+        margin: 18px;
+    }
+    
+.item-form {
+    text text-align: center;
+    height: 30px;
+    width: 30px  
+}
