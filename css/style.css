@@ -47,13 +47,15 @@
 
 .core-content {
    display: flex;
+   
     
 }
 
 
+
 .core-item 
     {
-        height: 400px;
+        height: 200px;
         width: 100%;
         border: 1px solid;
         margin: 18px;
@@ -67,6 +69,8 @@
     }
  
 .item-right {
+    height: 350px;
+    width: 50%;
     background-color: aliceblue;
     border: 0px;
     border-radius: 6px;
@@ -92,8 +96,20 @@
     margin left:10px;
 }
 
-.item.submit {
-    background-color:slategray;
+.item-radio>select {
+    height: 32px;
+    width: 50%;
+    border-radius: 6px;
+    border: 1px solid darkgrey;
+}
+
+.item-submit>input {
+    margin: 24px;
+    height: 32px;
+    width: 50%;
+    background-color: darkorange;
+    border-radius: 6px;
+    
 }
 
 .our-package-content {
@@ -112,4 +128,46 @@
 
 .conten-package {
     display: flex;
+}
+
+.core-package {
+    height: 150px;
+    width: 30%;
+    margin-top: 24px;
+    background-color: oldlace;
+    border: 1px solid;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.closing-statement {
+    height: 100px;
+    align-content: center
+}
+
+.closing-statement>h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    font-family: system-ui
+}
+
+.isi-closing {
+    font-size: 18px;
+    text-align: center;
+    font-family: monospace
+}
+
+.submit-closing>input {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-left: 35%;
+    height: 32px;
+    width: 30%;
+    background-color:darkorange;
+    border-radius: 6px;
+    font-family: fantasy;
+    align-items: center;
+    font-size: 18px
+    
 }
