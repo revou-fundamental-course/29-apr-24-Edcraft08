@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poskimia</title>
-    <link rel="stylesheet" href="css/style.css"
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -26,31 +26,40 @@
             <h1>Poskimia</h1>
             <h3>Solusi Kebutuhan Kimia Anda</h3>
         </header>  
-
         <section class="core-content">
-                <div class="core-item item-left"></div>
+                <div class="core-item">
+                    <div class ="banner-item" style="background-image: url(asset/1.jpeg);"> </div>
+                    <div class ="banner-item" style="background-image: url(asset/2.jpg);"> </div>
+                    <div class ="banner-item" style="background-image: url(asset/3.jpg);"> </div>
+                    <div class="next-prev">
+                        <button type="button" id="prev-slide"> Previous</button>    
+                        <button type="button" id="next-slide"> Next</button>                        
+                     </div>   
+                </div>
+                
                 <div class="core-item item-right">
                     <header>
                         <h2>Contact Us</h2>
                     </header>
-                       <section class="item-form">
-                        <label>username:</label><br><input type="text" />
-                    </section><br>
-                    <section class="item-form">
-                        <label>Email Address:</label><br><input type="text" />
-                    </section><br>
-                    <section class="item-radio">
-                        <label>What are you Interest in?</label><br>
+                    <Form class="item-form">
+                        <div>
+                            <label>username: </label><br><input type="text" id="form-username" />
+                        </div>
+                        <div>
+                            <label>Email Address:</label><br><input type="text" id="form-email" />
+                        </div>
+                            <section class="item-radio">
+                        <div><br>
+                            <label>What are you Interest in?</label><br>
+                        </div>
                             <select id="keagenan">
                                 <option value="Reseller">Reseller</option>
                                 <option value="Dropshiper">Dropshiper</option>
                                 <option value="Affiliator">Affiliator</option>
                             </select> <br>
-                        <section class="item-submit">
-                            <input type="submit" />
-                        </section>
-                            
-                    </section><br>
+                            <button type="button" id="send-form">Send Form</button>                          
+                            </section><br>
+                    </form><br>
                 </div>
         </section>
             <section class="our-package-content">
@@ -59,23 +68,29 @@
                 <section class="conten-package top">
                     <div class="core-package">
                         <label>Sabun Lantai </label>
+                        <div class="item-one"></div>
                     </div> 
                     <div class="core-package">
                         <label>Sabun Cuci Piring</label>
+                        <div class="item-two"></div>
                     </div> 
                     <div class="core-package">
                         <label>Pengharum ruangan</label>
+                        <div class="item-three"></div>
                     </div> 
                 </section>
                 <section class="conten-package bottom"> 
                     <div class="core-package">
-                        <label>sabun Mandi</label> 
+                        <label>Sabun Mandi</label> 
+                        <div class="item-four"></div>
                     </div> 
                     <div class="core-package">
                         <label>Sabun Cuci Tangan</label>
+                        <div class="item-five"></div>
                     </div> 
                     <div class="core-package">
-                        <label>Pengharum Ruangan</label>
+                        <label>Detergent</label>
+                        <div class="item-six"></div>
                     </div> 
                 </section>
                 <hr>
@@ -88,10 +103,11 @@
         </section>
     </article>
     <hr>
-    <footer>
-        <p>thank you</p>thank you
+    <footer class="footer-content">
+        <p>thank you</p>
+        <div>@copy right</div>
     </footer>
 
-
+    <script src="js/script.js"></script>
 </body>
 </html>
